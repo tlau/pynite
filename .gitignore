@@ -1,0 +1,4 @@
+*.cxx
+*.o
+*.so
+nite.py
