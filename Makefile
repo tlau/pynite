@@ -3,7 +3,7 @@ PRIMESENSE=/home/tlau/apps/primesense
 NITELIB=$(PRIMESENSE)/NiTE-2.0.0/Redist
 OPENNILIB=$(PRIMESENSE)/OpenNI-2.1.0-x64/Redist
 LIBDIR=-L$(NITELIB) -L$(OPENNILIB)
-LINK_ARGS=-Wl,-rpath -Wl,$(NITELIB):$(OPENNILIB)
+LINK_ARGS=-Wl,-rpath -Wl,$(NITELIB):$(OPENNILIB):.
 LIBS=-lOpenNI2 -lNiTE2
 
 all:

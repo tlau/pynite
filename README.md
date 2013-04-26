@@ -6,3 +6,4 @@ depth sensors such as the Kinect, Asus, and PrimeSense.
 
 I'm using SWIG.
 
+I have a PrimeSense Carmine 1.09 short range sensor.
